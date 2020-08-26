@@ -7,6 +7,7 @@ public class User {
     private String lName;
     private Address address;
     private Double salary;
+    private String Dob; // new variable declared for date of birth
 
 
 
@@ -49,6 +50,11 @@ public class User {
     public void setSalary(Double salary) {
         this.salary = salary;
     }
+
+    public String getDob() {return Dob;}
+
+    public void setDob (String dob){this.Dob = dob;}
+
 
     @Override
     public String toString() {
